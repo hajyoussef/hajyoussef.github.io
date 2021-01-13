@@ -1,0 +1,93 @@
+
+
+@font-face {
+   font-family: "Liberation Sans";
+   src: url("/fonts/LiberationSans-Bold-webfont.ttf") format("truetype"),
+          url("/fonts/LiberationSans-Regular-webfont.ttf") format("truetype");
+  }
+body{
+   font-family:"Liberation Sans" ;
+   font-size: 14px;
+   color: rgba(0, 0, 0, 0.774);
+}
+
+header{
+   background: url(/images/background.jpg);
+}
+.first-line{
+   
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0 10% 0 10%;
+   padding-top: 30px ;
+}
+.second-line{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0 10% 0 10%;
+   padding-top: 15px ;
+   padding-bottom: 15px;
+}
+.first-line img{
+   width: 20%;
+}
+.second-line span{
+   color: #E99E05;
+}
+nav a{
+   text-decoration: none;
+   color: rgba(0, 0, 0, 0.774)
+   
+}
+nav{
+   width: 300px;
+   display: flex;
+   justify-content: space-between;
+}
+main{
+   width: 100%;
+   background-color: #1C1C1C;
+   padding: 0 10% 0 10%;
+}
+.boxeurs{
+   width: 80%;
+}
+.products{
+   background-color:#F3F3F3;
+   width: 80%;
+
+}
+.products{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ 
+}
+
+figure{
+   background-color: white;
+   text-align: center;
+}
+.vente1{
+   display: flex;
+   justify-content: space-between;
+   padding: 15px;
+}
+figcaption{
+   position: relative;
+   top: -20PX;
+}
+button{
+   background-color: rgba(0, 0, 0, 0.822);
+   padding: 10px 30px 10px 30px;
+   color: cornsilk;
+}
+ .promo{
+   color: #E99E05;}
+p{
+   font-size: large;
+   padding: 15px;
+   font-weight: bold;
+}
